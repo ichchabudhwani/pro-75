@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default class RideScreen extends Component {
+export default class RideHistoryScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.text}>Ride Screen</Text>
+        <Text style={styles.text}>Ride History Screen</Text>
       </View>
     );
   }
